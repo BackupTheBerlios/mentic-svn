@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <DocsAndViews NumberOfDocuments="3" >
+  <Doc0 NumberOfViews="1" URL="file:/home/tobgle/filez/pj/mentic/src/mentic.cpp" >
+   <View0 line="26" Type="Source" />
+  </Doc0>
+  <Doc1 NumberOfViews="1" URL="file:/home/tobgle/filez/pj/mentic/src/mentic_options_dialog.cpp" >
+   <View0 line="33" Type="Source" />
+  </Doc1>
+  <Doc2 NumberOfViews="1" URL="file:/home/tobgle/filez/pj/mentic/src/mentic_main_widget.cpp" >
+   <View0 line="0" Type="Source" />
+  </Doc2>
+ </DocsAndViews>
+ <pluginList>
+  <kdevvalgrind>
+   <executable path="" params="" />
+   <valgrind path="" params="" />
+   <calltree path="" params="" />
+   <kcachegrind path="" />
+  </kdevvalgrind>
+ </pluginList>
+</KDevPrjSession>
