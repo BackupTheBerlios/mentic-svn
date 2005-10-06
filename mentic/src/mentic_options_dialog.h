@@ -23,6 +23,8 @@
 #ifndef MENTIC_OPTIONS_DIALOG
 #define MENTIC_OPTIONS_DIALOG
 
+class QCheckBox;
+
 class MenticOptionsDialog : public QDialog
 {
 	Q_OBJECT
@@ -32,6 +34,12 @@ class MenticOptionsDialog : public QDialog
 	
 	public slots:
 	void accept();
+
+	private:
+	QCheckBox* addition;
+	QCheckBox* substraction;
+	QCheckBox* multiplication;
+	QCheckBox* division;
 };
 
 #endif

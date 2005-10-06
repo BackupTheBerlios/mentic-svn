@@ -28,6 +28,7 @@
 #include <qapplication.h>
 
 #include "mentic_main_widget.h"
+#include "mentic_settings_container.h"
 
 int main(int argc, char *argv[])
 {
@@ -36,12 +37,18 @@ int main(int argc, char *argv[])
   //Random isn't random by default  
   srand (time (0));
 
+  //Initialize settings container
+  MSC::get();
+
   MenticMainWidget main_widget;
   app.setMainWidget(&main_widget);
   
   main_widget.show();
   
   app.exec();
-  
+
+  //Save settings
+  MSC::save();
+   
   return EXIT_SUCCESS;
 }

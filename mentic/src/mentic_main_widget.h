@@ -21,6 +21,7 @@
 #include <vector>
  
 #include <qwidget.h>
+#include <qlayout.h>
 
 #ifndef MENTIC_MAIN_WIDGET
 #define MENTIC_MAIN_WIDGET
@@ -41,7 +42,9 @@ class MenticMainWidget : public QWidget
 	
 	private:
 	void newTerm();
-	
+
+	QGridLayout* grid;
+
 	QLabel* order;
 	QLabel* term;
 	QLabel* stat;
